@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "com.test.Solution",
+            "projectName": "Algorithms_8681b93d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "com.test.Solution1",
+            "projectName": "Algorithms_8681b93d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "com.hackerrank.Solution1",
+            "projectName": "Algorithms_8681b93d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CloudJump",
+            "request": "launch",
+            "mainClass": "com.strings.CloudJump",
+            "projectName": "Algorithms_8681b93d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CloudJump",
+            "request": "launch",
+            "mainClass": "com.Strings.CloudJump",
+            "projectName": "Algorithms_8681b93d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cloudjump",
+            "request": "launch",
+            "mainClass": "com.Strings.Cloudjump",
+            "projectName": "Algorithms_8681b93d"
+        }
+    ]
+}

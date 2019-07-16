@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<createUser xmlns="http://ws.csd.rsa.com">
+			<request>
+				<actionTypeList>
+					<genericActionTypes>SET_USER_STATUS</genericActionTypes>
+				</actionTypeList>
+				<deviceRequest>
+					<deviceTokenCookie>PMV63adAQcmQ3VV3AimytvO2VZ5UywwhD0xrTpWotpu5aMHMNdkj3NzqngyZ%2BPoWSyk8Uywu8CxGASUnHCwgI5Kqkbew%3D%3D</deviceTokenCookie>
+					<deviceTokenFSO>PMV63adAQcmQ3VV3AimytvO2VZ5UywwhD0xrTpWotpu5aMHMNdkj3NzqngyZ%2BPoWSyk8Uywu8CxGASUnHCwgI5Kqkbew%3D%3D</deviceTokenFSO>
+					<httpAccept>*/*</httpAccept>
+					<ipAddress>10.43.6.206</ipAddress>
+					<deviceIdentifier xmlns:ns1="http://ws.csd.rsa.com"
+						xsi:type="ns1:MobileDevice">
+						<mobileSdkData>{"DeviceModel":"CPH1819","GeoLocationInfo":[{"Status":"1"}],"HardwareID":"869383039671953","TIMESTAMP":"2018-11-13
+							05:18:31
+							+0800","SDK_VERSION":"3.11.0","MultitaskingSupported":"false","Languages":"en","WiFiNetworksData":{"SSID":"&lt;unknown
+							ssid&gt;","BBSID":"02:00:00:00:00:00","SignalStrength":"-61"},"DeviceName":"CPH1819","RSA_ApplicationKey":"FADAF04C1816B8C62817F60E52A0D6F1"}</mobileSdkData>
+					</deviceIdentifier>
+				</deviceRequest>
+				<identificationData>
+					<clientSessionId>9D156B31-1C5A-4126-96FA-456ADB7036A7</clientSessionId>
+					<clientTransactionId>35ebf082-3f75-40a8-8be6-304372a7c0c7</clientTransactionId>
+					<orgName>UATMYHLBBRIB</orgName>
+					<userCountry>MY</userCountry>
+					<userLanguage>en</userLanguage>
+					<userLoginName>61767064</userLoginName>
+					<userName>61767064</userName>
+					<userStatus>UNVERIFIED</userStatus>
+					<userType>PERSISTENT</userType>
+				</identificationData>
+				<messageHeader>
+					<apiType>DIRECT_SOAP_API</apiType>
+					<requestId>35ebf082-3f75-40a8-8be6-304372a7c0c7</requestId>
+					<requestType>CREATEUSER</requestType>
+					<timeStamp>2018-11-13T09:18:32.344Z</timeStamp>
+					<version>7.0</version>
+				</messageHeader>
+				<securityHeader>
+					<callerCredential>Password1!</callerCredential>
+					<callerId>callerId1</callerId>
+					<method>PASSWORD</method>
+				</securityHeader>
+				<credentialManagementRequestList>
+					<acspManagementRequestData>
+						<credentialProvisioningStatus>ACTIVE</credentialProvisioningStatus>
+						<payload xmlns:ns2="http://trx.csd.rsa.com" xsi:type="ns2:TrxSignManagementRequest">
+							<ns2:action>ADD</ns2:action>
+							<ns2:publicKey>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5d3yPoWFANaD8MMumkeWQ4VS145APq7nOEcBfY08NH29Ami4nZ1RB1628s7xrbgYMahxs7a3OZJDjC6CmIOp30q9Dc7BhPQMh+dlHkfDNgkMpTX7aLlzRJu9PpMe3vS8r0xkQcXlOcLZxn/iR3dfVVXq5sv028e12rlYaxnKdr2IcjpL2kn0Vf0HnoJ4HzrJ6lQwLrIWyUPr4lfBSMzz5q/Z+6vvInxxCiAaYBaE9BaKNckERriLdxcGpPzW6gx88FH13TtBbo6IFMVlCosyDyGVFbi+btbi196hdAEXJ1fZ4eWfbqMdTHfaP9z/Pgp+PlwkauvCurh2yOGKX8XEgQIDAQAB</ns2:publicKey>
+							<ns2:entropy>763421730</ns2:entropy>
+							<ns2:indicies>23,4,28,26,1,0</ns2:indicies>
+						</payload>
+					</acspManagementRequestData>
+				</credentialManagementRequestList>
+				<channelIndicator>MOBILE</channelIndicator>
+			</request>
+		</createUser>
+	</soapenv:Body>
+</soapenv:Envelope>
